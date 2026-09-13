@@ -12,6 +12,10 @@ struct ContentView: View {
         .tabItem {
           Label("Stacks", systemImage: "square")
         }
+      ColorViews()
+        .tabItem {
+          Label("Colors", systemImage: "paintpalette")
+        }
       TextViews()
         .tabItem {
           Label("Text", systemImage: "character.cursor.ibeam")

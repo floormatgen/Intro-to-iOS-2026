@@ -10,12 +10,10 @@ struct StacksView: View {
     VStack {
       HStack {
         Rectangle()
-          .foregroundStyle(.blue)
-        RoundedRectangle(cornerRadius: 32)
-          .foregroundStyle(.orange)
+        RoundedRectangle(
+          cornerRadius: 32)
       }
       Circle()
-        .foregroundStyle(.cyan)
     }
     .padding()
   }
