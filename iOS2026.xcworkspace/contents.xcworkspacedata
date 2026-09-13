@@ -7,4 +7,7 @@
    <FileRef
       location = "group:BasicSwift">
    </FileRef>
+   <FileRef
+      location = "group:StateManagement/StateManagement.xcodeproj">
+   </FileRef>
 </Workspace>
