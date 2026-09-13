@@ -4,4 +4,7 @@
    <FileRef
       location = "group:HelloWorld/HelloWorld.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BasicSwift">
+   </FileRef>
 </Workspace>
