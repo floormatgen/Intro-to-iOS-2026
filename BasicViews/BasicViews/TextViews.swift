@@ -13,9 +13,9 @@ struct TextViews: View {
       Text("Title")
         .font(.title)
       Text("Bold Title")
-        .font(.title)
-        .bold()
-      Text("Normal")
+        .font(.title.bold())
+      Text("Red")
+        .foregroundStyle(.red)
       Button("Tap Me!") {
         print("hello, world")
       }
