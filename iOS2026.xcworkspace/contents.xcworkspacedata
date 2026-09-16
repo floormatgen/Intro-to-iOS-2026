@@ -11,6 +11,9 @@
       location = "group:BasicViews/BasicViews.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:BasicViewModifiers/BasicViewModifiers.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:StateManagement/StateManagement.xcodeproj">
    </FileRef>
 </Workspace>
