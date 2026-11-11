@@ -19,4 +19,7 @@
    <FileRef
       location = "group:Navigation/Navigation.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Tasks/Tasks.xcodeproj">
+   </FileRef>
 </Workspace>
