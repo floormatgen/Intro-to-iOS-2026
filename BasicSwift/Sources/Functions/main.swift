@@ -1,6 +1,6 @@
 //
-// Functions
-// BasicSwift
+//  Functions
+//  BasicSwift
 //
 
 // MARK: - Basic Functions

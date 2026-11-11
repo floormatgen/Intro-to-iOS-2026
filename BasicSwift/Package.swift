@@ -20,5 +20,8 @@ let package = Package(
     .executableTarget(
       name: "Protocols"
     ),
+    .executableTarget(
+      name: "Collections"
+    ),
   ]
 )

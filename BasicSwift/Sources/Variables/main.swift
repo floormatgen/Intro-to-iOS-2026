@@ -1,6 +1,6 @@
 //
-// Variables
-// BasicSwift
+//  Variables
+//  BasicSwift
 //
 
 let foo = "hello, world" // String

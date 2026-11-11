@@ -1,6 +1,6 @@
 //
-// Aggregates
-// BasicSwift
+//  Aggregates
+//  BasicSwift
 //
 
 struct Foo: Equatable {

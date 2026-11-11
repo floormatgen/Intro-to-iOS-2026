@@ -1,6 +1,6 @@
 //
-// Protocols
-// BasicSwift
+//  Protocols
+//  BasicSwift
 //
 
 protocol NameProvider {
