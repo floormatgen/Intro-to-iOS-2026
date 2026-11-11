@@ -2,8 +2,6 @@
 //  SwitchView.swift
 //  Tasks
 //
-//  Created by Matthew Yuen on 12/11/2026.
-//
 
 import SwiftUI
 
