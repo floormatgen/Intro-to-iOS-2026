@@ -20,9 +20,9 @@ struct ContentView: View {
         .tabItem {
           Label("Tab 3", systemImage: "textformat.123")
         }
-      TreeView()
+      ProjectsView()
         .tabItem {
-          Label("Tree", systemImage: "tree")
+          Label("Projects", systemImage: "rectangle.stack")
         }
     }
   }
