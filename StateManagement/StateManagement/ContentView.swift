@@ -6,17 +6,17 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State var count: Int = 0
-  
   var body: some View {
-    VStack {
-      Text("Count: \(count)")
-        .font(.title)
-      Button("Add") {
-        count += 1
-      }
+    TabView {
+      CounterView()
+        .tabItem {
+          Label("Counter", systemImage: "number")
+        }
+      TextFieldView()
+        .tabItem {
+          Label("Text Field", systemImage: "character")
+        }
     }
-    .padding()
   }
 }
 
