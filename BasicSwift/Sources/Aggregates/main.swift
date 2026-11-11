@@ -1,3 +1,8 @@
+//
+// Aggregates
+// BasicSwift
+//
+
 struct Foo: Equatable {
   var value: Int
   

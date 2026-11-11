@@ -1,3 +1,8 @@
+//
+// Variables
+// BasicSwift
+//
+
 let foo = "hello, world" // String
 print(foo) // "hello, world"
 

@@ -1,3 +1,8 @@
+//
+// Functions
+// BasicSwift
+//
+
 // MARK: - Basic Functions
 
 func double(num: Int) -> Int {
