@@ -14,5 +14,8 @@ let package = Package(
     .executableTarget(
       name: "Functions"
     ),
+    .executableTarget(
+      name: "Aggregates"
+    ),
   ]
 )
