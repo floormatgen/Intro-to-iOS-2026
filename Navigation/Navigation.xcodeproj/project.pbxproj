@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 110;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,18 +11,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EDFECE22601456ACE97EB4F0 /* Navigation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Navigation;
-			sourceTree = "<group>";
-		};
+		EDFECE22601456ACE97EB4F0 /* Navigation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Navigation; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2397C1227DC182B26188D35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -56,10 +54,14 @@
 			);
 			buildRules = (
 			);
+			dependencies = (
+			);
 			fileSystemSynchronizedGroups = (
 				EDFECE22601456ACE97EB4F0 /* Navigation */,
 			);
 			name = Navigation;
+			packageProductDependencies = (
+			);
 			productName = Navigation;
 			productReference = 000000000000000000000120 /* Navigation.app */;
 			productType = "com.apple.product-type.application";
@@ -75,6 +77,7 @@
 				LastUpgradeCheck = 2720;
 			};
 			buildConfigurationList = EE71A32A30D937E2B7DDB900 /* Build configuration list for PBXProject "Navigation" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -83,7 +86,6 @@
 			);
 			mainGroup = 3FB61D9E5C368B89C9AF95D9;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 60;
 			productRefGroup = E6EB20214A19562106DFFD09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -96,21 +98,25 @@
 /* Begin PBXResourcesBuildPhase section */
 		BD3BE2B4DB67C4FC9F8A9871 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B813EB7D52668A0FA0A62AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		47C4F44E1A9E00447A5123CA /* Release configuration for PBXProject "Navigation" */ = {
+		47C4F44E1A9E00447A5123CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,7 +179,7 @@
 			};
 			name = Release;
 		};
-		9E64894E508BEB879D4A4087 /* Debug configuration for PBXNativeTarget "Navigation" */ = {
+		9E64894E508BEB879D4A4087 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -215,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		D097B46E667A91490504958B /* Debug configuration for PBXProject "Navigation" */ = {
+		D097B46E667A91490504958B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		DD9FD3EC12C608A4CE3D6E25 /* Release configuration for PBXNativeTarget "Navigation" */ = {
+		DD9FD3EC12C608A4CE3D6E25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -334,21 +340,22 @@
 		5E19CA15E93FF3FDD5063549 /* Build configuration list for PBXNativeTarget "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E64894E508BEB879D4A4087 /* Debug configuration for PBXNativeTarget "Navigation" */,
-				DD9FD3EC12C608A4CE3D6E25 /* Release configuration for PBXNativeTarget "Navigation" */,
+				9E64894E508BEB879D4A4087 /* Debug */,
+				DD9FD3EC12C608A4CE3D6E25 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		EE71A32A30D937E2B7DDB900 /* Build configuration list for PBXProject "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D097B46E667A91490504958B /* Debug configuration for PBXProject "Navigation" */,
-				47C4F44E1A9E00447A5123CA /* Release configuration for PBXProject "Navigation" */,
+				D097B46E667A91490504958B /* Debug */,
+				47C4F44E1A9E00447A5123CA /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 573318396C05CD29484F7FE9 /* Project object */;
-	validationLevel = 1;
 }

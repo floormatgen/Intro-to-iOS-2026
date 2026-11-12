@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 110;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,18 +11,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5412A48030592E2000D4E122 /* BasicViewModifiers */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BasicViewModifiers;
-			sourceTree = "<group>";
-		};
+		5412A48030592E2000D4E122 /* BasicViewModifiers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = BasicViewModifiers; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5412A47B30592E2000D4E122 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -56,10 +54,14 @@
 			);
 			buildRules = (
 			);
+			dependencies = (
+			);
 			fileSystemSynchronizedGroups = (
 				5412A48030592E2000D4E122 /* BasicViewModifiers */,
 			);
 			name = BasicViewModifiers;
+			packageProductDependencies = (
+			);
 			productName = BasicViewModifiers;
 			productReference = 5412A47E30592E2000D4E122 /* BasicViewModifiers.app */;
 			productType = "com.apple.product-type.application";
@@ -80,6 +82,7 @@
 				};
 			};
 			buildConfigurationList = 5412A47930592E2000D4E122 /* Build configuration list for PBXProject "BasicViewModifiers" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -88,7 +91,6 @@
 			);
 			mainGroup = 5412A47530592E2000D4E122;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 60;
 			productRefGroup = 5412A47F30592E2000D4E122 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -101,21 +103,25 @@
 /* Begin PBXResourcesBuildPhase section */
 		5412A47C30592E2000D4E122 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5412A47A30592E2000D4E122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5412A48730592E2100D4E122 /* Debug configuration for PBXProject "BasicViewModifiers" */ = {
+		5412A48730592E2100D4E122 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		5412A48830592E2100D4E122 /* Release configuration for PBXProject "BasicViewModifiers" */ = {
+		5412A48830592E2100D4E122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +242,7 @@
 			};
 			name = Release;
 		};
-		5412A48A30592E2100D4E122 /* Debug configuration for PBXNativeTarget "BasicViewModifiers" */ = {
+		5412A48A30592E2100D4E122 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -268,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		5412A48B30592E2100D4E122 /* Release configuration for PBXNativeTarget "BasicViewModifiers" */ = {
+		5412A48B30592E2100D4E122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,21 +312,22 @@
 		5412A47930592E2000D4E122 /* Build configuration list for PBXProject "BasicViewModifiers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5412A48730592E2100D4E122 /* Debug configuration for PBXProject "BasicViewModifiers" */,
-				5412A48830592E2100D4E122 /* Release configuration for PBXProject "BasicViewModifiers" */,
+				5412A48730592E2100D4E122 /* Debug */,
+				5412A48830592E2100D4E122 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		5412A48930592E2100D4E122 /* Build configuration list for PBXNativeTarget "BasicViewModifiers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5412A48A30592E2100D4E122 /* Debug configuration for PBXNativeTarget "BasicViewModifiers" */,
-				5412A48B30592E2100D4E122 /* Release configuration for PBXNativeTarget "BasicViewModifiers" */,
+				5412A48A30592E2100D4E122 /* Debug */,
+				5412A48B30592E2100D4E122 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 5412A47630592E2000D4E122 /* Project object */;
-	validationLevel = 1;
 }

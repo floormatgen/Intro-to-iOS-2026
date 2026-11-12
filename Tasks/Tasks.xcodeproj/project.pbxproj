@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 110;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,18 +11,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		54169AD830A499650098A62E /* Tasks */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Tasks;
-			sourceTree = "<group>";
-		};
+		54169AD830A499650098A62E /* Tasks */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Tasks; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		54169AD330A499650098A62E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -56,10 +54,14 @@
 			);
 			buildRules = (
 			);
+			dependencies = (
+			);
 			fileSystemSynchronizedGroups = (
 				54169AD830A499650098A62E /* Tasks */,
 			);
 			name = Tasks;
+			packageProductDependencies = (
+			);
 			productName = Tasks;
 			productReference = 54169AD630A499650098A62E /* Tasks.app */;
 			productType = "com.apple.product-type.application";
@@ -80,6 +82,7 @@
 				};
 			};
 			buildConfigurationList = 54169B0F30A4997A0098A62E /* Build configuration list for PBXProject "Tasks" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -88,7 +91,6 @@
 			);
 			mainGroup = 54169ACE30A499650098A62E;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 60;
 			productRefGroup = 54169AD730A499650098A62E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -101,21 +103,25 @@
 /* Begin PBXResourcesBuildPhase section */
 		54169AD430A499650098A62E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54169AD230A499650098A62E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		54169ADF30A499660098A62E /* Debug configuration for PBXProject "Tasks" */ = {
+		54169ADF30A499660098A62E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		54169AE030A499660098A62E /* Release configuration for PBXProject "Tasks" */ = {
+		54169AE030A499660098A62E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +240,7 @@
 			};
 			name = Release;
 		};
-		54169AE130A499660098A62E /* Debug configuration for PBXNativeTarget "Tasks" */ = {
+		54169AE130A499660098A62E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -266,7 +272,7 @@
 			};
 			name = Debug;
 		};
-		54169AE230A499660098A62E /* Release configuration for PBXNativeTarget "Tasks" */ = {
+		54169AE230A499660098A62E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,21 +310,22 @@
 		54169B0F30A4997A0098A62E /* Build configuration list for PBXProject "Tasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54169ADF30A499660098A62E /* Debug configuration for PBXProject "Tasks" */,
-				54169AE030A499660098A62E /* Release configuration for PBXProject "Tasks" */,
+				54169ADF30A499660098A62E /* Debug */,
+				54169AE030A499660098A62E /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		54169B1030A4997A0098A62E /* Build configuration list for PBXNativeTarget "Tasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54169AE130A499660098A62E /* Debug configuration for PBXNativeTarget "Tasks" */,
-				54169AE230A499660098A62E /* Release configuration for PBXNativeTarget "Tasks" */,
+				54169AE130A499660098A62E /* Debug */,
+				54169AE230A499660098A62E /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 54169ACF30A499650098A62E /* Project object */;
-	validationLevel = 1;
 }
